@@ -297,17 +297,20 @@ Backend
 
 Example Configuration Files
 ```````````````````````````
-- `sample-k8s-bigip-ctlr-secrets.yaml <./_static/config_examples/sample-k8s-bigip-ctlr-secrets.yaml>`_
-- `sample-bigip-credentials-secret.yaml <./_static/config_examples/sample-bigip-credentials-secret.yaml>`_
-- `example-vs-resource.configmap.yaml <./_static/config_examples/example-vs-resource.configmap.yaml>`_
-- `example-vs-resource.json <./_static/config_examples/example-vs-resource.json>`_
-- `example-vs-resource-iapp.json <./_static/config_examples/example-vs-resource-iapp.json>`_
-- `example-advanced-vs-resource-iapp.json <./_static/config_examples/example-advanced-vs-resource-iapp.json>`_
 
+Click to download our sample config files.
 
+- :examples:`sample-k8s-bigip-ctlr-secrets.yaml`
+- :examples:`sample-bigip-credentials-secret.yaml`
+- :examples:`example-vs-resource.configmap.yaml`
+- :examples:`example-vs-resource.json`
+- :examples:`example-vs-resource-iapp.json`
+- :examples:`example-advanced-vs-resource-iapp.json`
+
+.. rubric:: Footnotes
 .. [#objectpartition]  The |kctlr-long| creates and manages objects in the BIG-IP partition defined in the `F5 resource </containers/v1/kubernetes/index.html#f5-resource-properties>`_ ConfigMap.
-.. [#nodeport]  The |kctlr-long| forwards traffic to the NodePort assigned to the service by Kubernetes; see the Kubernetes `Services <http://kubernetes.io/docs/user-guide/services/>`_ documentation for more information.
-.. [#secrets]  You can store sensitive information as a `Kubernetes Secret <http://kubernetes.io/docs/user-guide/secrets/>`_. See the `user documentation <#>`_ for instructions.
+.. [#nodeport]  The |kctlr-long| forwards traffic to the NodePort assigned to the service by Kubernetes; see the `Kubernetes Services documentation <http://kubernetes.io/docs/user-guide/services/>`_ :fonticon:`fa fa-external` for more information.
+.. [#secrets]  You can store sensitive information as a `Kubernetes Secret <http://kubernetes.io/docs/user-guide/secrets/>`_ :fonticon:`fa fa-external`.
 
 
 
