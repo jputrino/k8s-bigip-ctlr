@@ -413,9 +413,9 @@ The ``backend`` section tells the |kctlr| about the Service you want to manage.
 | ServicePort   | integer   | Required  | none      | Kubernetes Service port       |                           |
 |               |           |           |           | number                        |                           |
 +---------------+-----------+-----------+-----------+-------------------------------+---------------------------+
-| healthMonitors| JSON      | Optional  | none      | Array of TCP or HTTP Health   |                           |
-|               | object    |           |           | Monitors.                     |                           |
-|               | array     |           |           |                               |                           |
+| healthMonitors| JSON      | Optional  | none      | Array of TCP or HTTP Health   | See the Ingress Resource  |
+|               | object    |           |           | Monitors.                     | Supported Annotations     |
+|               | array     |           |           |                               | table, below.             |
 +---------------+-----------+-----------+-----------+-------------------------------+---------------------------+
 
 .. _ingress resources:
